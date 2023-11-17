@@ -1,0 +1,131 @@
+body{
+    background-color: white;
+}
+
+.header {
+    padding: 180px;
+    text-align: center;
+    background-image: url(imgs/banner.jpeg);
+    color: white;
+    font-size: 30px;
+    height: 600px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    box-shadow: 30px black;
+  }
+
+  .team{
+      padding-top: 50px;
+      text-align: center;
+      color: black;
+  }
+
+  .cards{
+      padding-top: 50px;
+      padding-left: 80px;
+      padding-right: 80px;
+      box-shadow: 100px black;
+  }
+
+  .card-img-top {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    }
+  
+.overlay{
+    background-color: rgba(138, 138, 138, 0.438);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer{
+    height: 200px;
+    margin-top: 80px;
+}
+
+.middle{
+    width: 100%;
+    text-align: center;
+}
+
+.about-us-header{
+    padding: 180px;
+    text-align: center;
+    background-image: url(imgs/about-us-headerha.jpeg);
+    color: white;
+    font-size: 30px;
+    height: 600px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    box-shadow: 30px black;
+    background-repeat: no-repeat;
+}
+
+.about-us{
+    padding-top: 50px;
+    color: black;
+}
+
+.large-text{
+    font-size: 10px;
+}
+
+.careers-header{
+    padding: 180px;
+    text-align: center;
+    background-image: url(imgs/careers-header.jpg);
+    color: white;
+    font-size: 30px;
+    height: 600px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    box-shadow: 30px black;
+    background-repeat: no-repeat;  
+}
+
+.application-header{
+    
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    box-shadow: 30px black;
+    background-repeat: no-repeat;  
+}
+
+.lineup{
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-top: 50px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.footer-container > p {
+    color: white;
+    padding: 0;
+    margin: 2px !important;
+}
+
+.footer-container > .footer-href {
+    color: white;
+}
+
+.space{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
